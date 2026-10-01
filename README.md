@@ -1,5 +1,5 @@
 # PS4 Exploit Host
-Firmwares: `13.02` - `13.52`
+Firmwares: `11.00` - `13.52`
 
 ## Steps:
 
