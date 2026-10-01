@@ -1,24 +1,22 @@
 <html manifest="cache.appcache">
 <head>
 <title>QATAYONET GAME STATION · PS4 Exploit</title>
-<style>
-body {
-    background-color: #ffffff;
-    color: #111111;
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    overflow: hidden;
-}
-.info {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    font-size: 22px;
-    font-family: monospace;
-    color: #111111;
-    transform: translate(-50%, -50%);
-}
+   <style>
+  html, body { margin:0; padding:0; background:#0b0d10; color:#c8ced8;
+               font:15px/1.45 "Segoe UI", system-ui, sans-serif; }
+  #wrap { padding:16px 18px; }
+  #state { font-size:22px; font-weight:700; margin:0 0 6px; }
+  #det { font-size:13px; color:#8b95a3; margin:0 0 4px; }
+  #det b { color:#c8ced8; font-weight:600; }
+  #cache { font-size:12px; color:#5c6672; margin:0 0 10px; min-height:14px; }
+  #cache.cacheok { color:#7fd0a0; }
+  .ok { color:#7fd0a0; } .bad { color:#d08a7f; } .warn { color:#d8c07f; }
+  #brand { text-align:center; padding:8px 10px; background:#0e1116;
+           border-bottom:1px solid #1e2732; }
+  #brand img { width:28px; height:28px; margin-right:8px; border-radius:50%;
+               vertical-align:middle; }
+  #brand b { font-size:15px; font-weight:700; letter-spacing:.14em;
+             color:#e6ebf2; vertical-align:middle; }
 </style>
 <script>
 history.replaceState(null, null, 'index.html');
